@@ -1,0 +1,114 @@
+
+.mainTitle {
+    margin: auto;
+    font-size:1000%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(196, 0, 0);
+
+  }
+
+body {
+    background-color: rgb(238, 228, 85);
+    font-family: 'Helvetica Neue', sans-serif;
+    display: block;
+    width: 100%;
+  }
+
+.Introduction {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+}
+
+.buttonHolder {
+    display: flex;
+
+    height: 200px;
+
+}
+
+.Play {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255); /* Green */
+    border: 2px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+.Play:hover {
+    transition-duration: 0.4s;
+    background-color: #880303; /* Green */
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+
+.ButtonHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Input{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+
+} 
+  
+input[type="text"]{
+    width: 100%;
+    padding: 5px 15px;
+    margin: 8px 5;
+    box-sizing: border-box;    
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+}
+
+
+.user{
+    display: block;
+    width:100%;
+    justify-content: center;
+
+}
+
+/* El uso de > sirve para buscar el tag dentro de una clase */
+.user>label{
+    width: 100%;
+    text-align: left;
+    
+
+}
+
+
+
+.formBox{
+    width: 400px;
+    margin: auto;
+    
+}
+
+.secondPageH1{
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    padding: 10px;
+    margin: auto
+
+}

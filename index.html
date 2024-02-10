@@ -3,59 +3,43 @@
 <html lang="en">
   <head>
     <!-- es toda la informacion que no es visible, titulo de pagina, icono y descripcion al buscar -->
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bingo</title>
   </head>
   <body>
     <div>
-      <div>
-        <h1>Titulo</h1>
-        <p>
-          <!-- etiqueta de parrafo -->
-          Esto es un parrafo
-        </p>
-      </div>
-      <button>Log in</button>
+      <h1 class="mainTitle">Bingo</h1>
     </div>
-    <div>
-      <img
-        src="https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=1xw:0.84415xh;center,to"
-        alt="Foto de gato"
-      />
-    </div>
-    <!-- Segunda Seccion-->
-    <hr />
-    <section>
-      <div>
-        <h2>Titulo2</h2>
-        <p>HOLA ME LLAMO JUAN Y BLABLBALBLABLBALBLABLBLBLABLLBALABL</p>
-        <p>jaja parrafo2 saluods</p>
-      </div>
-      <div>
-        <a
-          href="https://prepa-sdi.notion.site/Semana-1-HTML-d8e54b700813423bb7dddc43fafd296e"
-          ><strong>link al notion</strong></a
-        >
-      </div>
-      <div>
-        <details>
-          <summary><strong>Titulo del resumen</strong></summary>
-          <div>
-            <p>Texto del resumen</p>
-            <ul>
-              <li>elemento 1</li>
-              <li>elemento 2</li>
-            </ul>
+    <div class="formBox">
+      <h2 class="Introduction">Un juego para las abuelas activas</h2>
+      <div class="Input">
+        <form action="/indexGame.html">
+          <div class="user">
+            <label for="User1">User 1</label>
+            <input type="text" id="User1" name="User1" /><br /><br />
           </div>
-        </details>
+          <div class="user">
+            <label for="User2">User 2</label>
+            <input type="text" id="User2" name="User2" /><br /><br />
+          </div>
+          <div class="user">
+            <label for="User3">User 3</label>
+            <input type="text" id="User3" name="User3" /><br /><br />
+          </div>
+          <div class="user">
+            <label for="User4">User 4</label>
+            <input type="text" id="User4" name="User4" /><br /><br />
+          </div>
+          <div class="ButtonHolder">
+            <input class="Play" type="submit" value="A jugar" />
+          </div>
+        </form>
       </div>
-    </section>
-    <section>
-      <a href="https://www.op.gg/"
-        ><img
-          src="https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg"
-      /></a>
-    </section>
+    </div>
+    <script>
+      console.log("Hello world!");
+    </script>
   </body>
 </html>
