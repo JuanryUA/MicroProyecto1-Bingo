@@ -9,13 +9,115 @@
     <title>Bingo</title>
   </head>
   <body>
-    <div>
-      <div class="secondPageH1">
-        <h1 class="mainTitle">Bingo</h1>
-      </div>
+    <div class="secondPageH1">
+      <h1 class="mainTitle">Bingo</h1>
     </div>
-    <script>
-      console.log("Hello world!");
-    </script>
+    <div class="bingoNumber">
+      <div id="Over"></div>
+      <button class="Play" onclick="myNumber()" type="button" id="numBut">
+        Generar numero
+      </button>
+      <div id="numGen" class="nums"></div>
+      <div id="numList" class="nums"></div>
+    </div>
+    <div class="container">
+      <table id="tblBingo"></table>
+      <div id="User1"></div>
+      <div id="Puntaje">Puntaje: 0</div>
+    </div>
+
+    <div class="carton">
+      <table class="carton1">
+        <tr>
+          <th colspan="3" id="User1"></th>
+        </tr>
+        <tr>
+          <td id="s1">&nbsp;</td>
+          <td id="s2">&nbsp;</td>
+          <td id="s3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td id="s4">&nbsp;</td>
+          <td id="s5">&nbsp;</td>
+          <td id="s6">&nbsp;</td>
+        </tr>
+        <tr>
+          <td id="s7">&nbsp;</td>
+          <td id="s8">&nbsp;</td>
+          <td id="s9">&nbsp;</td>
+        </tr>
+      </table>
+
+      <table class="carton2">
+        <tr>
+          <th colspan="3" id="User2"></th>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+
+      <table class="carton3">
+        <tr>
+          <th colspan="3" id="User3"></th>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+
+      <table class="carton4">
+        <tr>
+          <th colspan="3" id="User4"></th>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <div class="start">
+      <a href="/index.html">
+        <button class="Play" type="button" action="/index.html">
+          Volver al inicio
+        </button>
+      </a>
+    </div>
+    <script src="main.js" defer></script>
   </body>
 </html>

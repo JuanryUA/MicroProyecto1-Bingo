@@ -13,7 +13,7 @@
 body {
     background-color: rgb(238, 228, 85);
     font-family: 'Helvetica Neue', sans-serif;
-    display: block;
+  
     width: 100%;
   }
 
@@ -61,6 +61,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:10px;
+    
 }
 
 
@@ -106,9 +108,114 @@ input[type="text"]{
 }
 
 .secondPageH1{
-    border: 2px solid rgb(0, 0, 0);
-    width: 90%;
+
+    width: 100%;
+
     padding: 10px;
-    margin: auto
+
+
+
+}
+
+.bingoNumber{
+
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.prueba{
+    width: 25%;
+    padding: 10px;
+}
+
+.carton{
+
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+table, th, td {
+    border: 1px solid;
+
+  }
+
+tr, td{
+    text-align: center;
+
+}
+
+
+table {
+    width: 20%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+#tblBingo{
+    cursor:pointer;
+
+}
+
+.cell-format{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+.cell-format:hover{
+    background-color: rgb(238, 255, 0);
+}
+
+.strickout{
+    text-decoration: line-through;
+    color: rgb(102, 0, 0);
+    background-color: rgb(243, 204, 204);
+    pointer-events: none;
+
+}
+
+.nums{
+    padding: 5px;
+    font-size: 200%;
+    font-style: italic;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#numBut{
+    display: flex;
+}
+
+#Over{
+    font-size: 50px;
+
+}
+
+.start{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
 
 }
